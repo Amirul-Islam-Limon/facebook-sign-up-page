@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Heebo', sans-serif;;
+}
+.firs-half{
+    width: 60%;
+    float: left;
+}
+.second-half{
+    width: 40%;
+    float: left;
+}
+.container{
+    width:70%;
+    margin: 0 auto;
+}
+.main-header{
+    height: 82px;
+    background-color: #3b5998;
+}
+.logo-img img{
+    width: 40%;
+    height: 82px;
+
+} 
+.login-information1 div{
+    float: left;
+    margin-left: 10px;
+    /* margin-top: 5px; */
+}
+.login-information1 div p{
+    margin-bottom: 2px;
+    color: white;
+    font-size: 13px;
+    margin-top:5px;
+    /* display: inline-block; */
+}
+.login-information1 input{
+    width: 150px;
+    height: 22px;
+    border: 1px solid #1d2a5b ;
+}
+.login-information1 input:focus{
+    outline:none;
+}
+.first-login-btn input{
+    width: 50px;
+    position: absolute;
+    right:206px;
+    top: 28px;
+    border: 1px solid rgb(33, 54, 114);
+    background-color: #3b5998;
+    color: white;
+}
+.forgotten-text{
+     font-size: small;
+     margin-top: 5px;
+    float: left;
+    text-decoration: none;
+    color:rgb(133, 153, 170);
+}
+.forgotten-text:hover{
+    text-decoration: underline;
+}
+.header::after, .header::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.header{
+    background-color: #3b5998;
+    height: 82px;
+}
+/*done header */
+.img-part h4{
+    font-size: 20px;
+    margin-top: 50px;
+    color: rgb(33, 54, 114) ;
+}
+#imag-parts-text2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#imag-parts-text1{
+    margin-bottom: 0;
+}
+.img-part{
+    float: left;
+}
+.information-part{
+    margin-left: 25px;
+}
+.information-part h1{
+    font-size: 35px;
+    color: rgb(49, 48, 48);
+    margin-top: 10px;
+}
+.information-part h5{
+    margin-top: -30px;
+    font-size: 20px;
+    color: dimgray;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.name input{
+    width: 185px;
+    height: 38px;
+}
+.information-part input{
+    border: 1px solid rgb(168, 167, 167);
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+    padding-left: 5px;
+}
+#first-name{
+    margin-right: 3px;
+}
+#surname{
+    margin-left: 3px;
+}
+.full-horigental{
+    width: 380px;
+    height: 38px;
+}
+.selector p{
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: dimgray;
+    font-weight: bold;
+}
+.selector label{
+    font-size:18px ;
+    margin-left: 2px;
+}
+.massage p{
+    font-size: 12px;
+    width: 320px;
+}
+.massage a{
+    color:rgb(33, 54, 114);
+    text-decoration: none;
+}
+.massage a:hover{
+    text-decoration: underline;
+}
+.signup-button input{
+    padding: 10px 60px;
+    background-color: #578843;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #2c5115;
+}
+
